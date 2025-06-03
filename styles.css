@@ -1,0 +1,138 @@
+*{
+      font-family: "Oswald", sans-serif;
+      margin: 0 ;
+      padding: 0 ;
+      box-sizing: border-box;
+      font-weight: 400;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+.section1{
+    display: inline-block;
+    width: 60%;
+    margin-top: 381px;
+    margin-right: 141px;
+    margin-bottom: 123px;
+    margin-left: 136px;
+}
+
+.section2{
+    display: inline-block;
+    background-color: rgba(93,93,125,0.16);
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    right: 100px;
+}
+.imglogo{
+ position: relative;
+ top: 25%;
+ right: 18%;
+
+}
+h1{
+    width: 368px;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+p{
+    width: 540px;
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button{
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA; 
+    box-shadow:(0px 10px 24px rgba(148, 153, 234, 0.10));
+    border-radius: 30px;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 36%;
+    cursor: pointer;
+}
+header{
+  margin-top: 24px;
+  margin-right: 58px;
+  margin-left: 57px;
+}
+.menu-header{
+    margin-right: 41px;
+    color: #5D5D7D;
+    font-size: 28px;
+    font-weight: 400;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    opacity: 0.4;
+}
+a:hover{
+    opacity: 0.4;
+}
+a:active{
+    opacity: 0.7;
+}
+a:nth-child(2){
+    opacity: 0.4;
+}
+
+@media screen and ( max-width:900px) {
+
+
+.section1{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 58px 53px 47px 54px;
+} 
+.section2{
+    display:block;
+    background-color: rgba(93,93,125,0.16);
+    width: 100%;
+    height: 80%;
+    position: static;
+    padding: 0px;
+    margin: 0px;
+}
+.menu-header{display: none;}
+
+.imglogo{
+    position: static;
+    right: 333px;
+    width: 250px;
+    margin:46px 53px 46px 51px ;
+ 
+}
+h1{  
+    width: 268px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 52px; 
+}
+
+p{
+    width: 296px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+button{
+    display: block ;
+    margin-left: 12px;
+   }
+
+
+
+}
